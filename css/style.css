@@ -15,6 +15,7 @@
   margin-inline: auto;
   width: 24rem;
   background: var(--bg-calc);
+  border-radius: 20px;
 }
 section {
   min-height: 100vh;
@@ -25,12 +26,12 @@ section {
 .display {
   width: 100%;
   height: 4rem;
-  background-color: rgb(60, 99, 130);
+  background-color: var(--btn-bg);
   text-align: right;
-  display: flex;
-  align-items: center;
-  justify-content: end;
+
   padding: 10px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .btn-container {
   display: grid;
@@ -68,4 +69,12 @@ section {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   margin-right: 10px;
+  color: var(--text-clr);
+}
+
+.prev {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(113, 128, 147);
 }
